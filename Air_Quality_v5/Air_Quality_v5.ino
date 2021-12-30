@@ -299,7 +299,7 @@ if(print_1s >= 2){
   Serial.print(minute);Serial.print("\t");
   Serial.print(outputValue2);Serial.print("\t");
   Serial.print(MQ2gas);Serial.print("\t");
-  //Serial.print(pulse);Serial.print("\t");
+  Serial.print(pulse);Serial.print("\t");
   Serial.print(Carbondioxied);Serial.print("\t");
   Serial.print(t1);Serial.print("\t");
   Serial.println(humidityf);
